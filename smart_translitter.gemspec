@@ -9,4 +9,6 @@ Gem::Specification.new do |s|
   s.files       = ["lib/smart_translitter.rb"]
   s.homepage    =
     'http://rubygems.org/gems/smart_translitter'
+
+  s.add_development_dependency 'rspec', ['>= 0']
 end
